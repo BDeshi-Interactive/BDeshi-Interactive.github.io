@@ -58,9 +58,8 @@ ul#horizontal-list li {
 
 .top-bar-button{
     alignment: center;
-    width: 100%;
     height: 100%;
-    font-size: 100%;
+    font-size: 2.5vw;
     color: var(--textColor);
     background-color: rgba(0,0,0,0);
     border: none;
@@ -159,6 +158,7 @@ ul#team-section li, ul#games-section li{
 
 .widget-text{
     padding: 10px;
+    flex: 1;
 }
 
 
