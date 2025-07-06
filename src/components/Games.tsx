@@ -24,7 +24,7 @@ const Games: React.FC = () => {
     {
       id: 'compress-space',
       title: 'Compress(space)',
-      description: 'A mind and space-bending puzzle game where you fold space to cheat your way through puzzles. Master space manipulation and reach beyond the stars to uncover the mystery at the end of the universe.',
+      description: 'A mind and spacebending puzzle game where you fold space to cheat your way through puzzles. Master space manipulation and reach beyond the stars to uncover the mystery at the end of the universe.',
       thumbnail: './GameAssets/cs-steam-capsule.png',
       screenshots: [
         'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3664840/extras/compress_space_1.gif?t=1748719351',
@@ -43,7 +43,7 @@ const Games: React.FC = () => {
     {
       id: 'control-override',
       title: 'Control:Override',
-      description: 'Control:Override is a puzzle game where you must share control between the environment and yourself. Defy Physics. Solve puzzles. Terminate the rogue AI. And perhaps confront the truth about why it went rogue.',
+      description: 'Control:Override is a puzzle game where you must share control between the environment and yourself. Solve puzzles. Defy Physics. Terminate the rogue AI. And perhaps confront the truth about why it went rogue.',
       thumbnail: './GameAssets/co-steam-capsule.jpg',
       screenshots: [
         'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1406090/extras/nocontrol.gif?t=1747778375',
