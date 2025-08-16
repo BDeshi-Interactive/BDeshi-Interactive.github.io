@@ -24,20 +24,20 @@ const Games: React.FC = () => {
     {
       id: 'compress-space',
       title: 'Compress(space)',
-      description: 'A mind and spacebending puzzle game where you fold space to cheat your way through puzzles. Master space manipulation and reach beyond the stars to uncover the mystery at the end of the universe.',
+      description: 'A mind and spac-ebending puzzle game where you fold space to cheat your way through puzzles. Master space manipulation and reach beyond the stars to uncover the mystery at the end of the universe.',
       thumbnail: './GameAssets/cs-steam-capsule.png',
       screenshots: [
         'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3664840/extras/compress_space_1.gif?t=1748719351',
         'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3664840/extras/compress_space_spoiler_gif_1.gif?t=1748719351',
         'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3664840/extras/level_select_loop_1.gif?t=17487193510',
-        'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3664840/14e91316396e6a4dd62b7c87e59771fbc68998a5/ss_14e91316396e6a4dd62b7c87e59771fbc68998a5.116x65.jpg?t=1748719351',
+        'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3664840/14e91316396e6a4dd62b7c87e59771fbc68998a5/ss_14e91316396e6a4dd62b7c87e59771fbc68998a5.1920x1080.jpg?t=1755193251',
         'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3664840/4adf34517f979d7eb0e1449674895e1055eb488d/ss_4adf34517f979d7eb0e1449674895e1055eb488d.600x338.jpg?t=1748719351',
         'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3664840/9870102654d307cdd5bd2725993af4fcc398951d/ss_9870102654d307cdd5bd2725993af4fcc398951d.600x338.jpg?t=1748719351',
         'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3664840/b23b933133daf95406d30fb00b548875db7c93aa/ss_b23b933133daf95406d30fb00b548875db7c93aa.600x338.jpg?t=1748719351',
       ],
       platforms: {
         steam: 'https://store.steampowered.com/app/3664840/Compressspace/',
-        itch: 'https://b-deshidev.itch.io/compressspace-expanded'
+        // itch: 'https://b-deshidev.itch.io/compressspace-expanded'
       }
     },
     {
