@@ -24,7 +24,7 @@ const Games: React.FC = () => {
     {
       id: 'compress-space',
       title: 'Compress(space)',
-      description: 'A mind and spac-ebending puzzle game where you fold space to cheat your way through puzzles. Master space manipulation and reach beyond the stars to uncover the mystery at the end of the universe.',
+      description: 'A mind and space-bending puzzle game where you fold space to cheat your way through puzzles. Master space manipulation and reach beyond the stars to uncover the mystery at the end of the universe.',
       thumbnail: './GameAssets/cs-steam-capsule.png',
       screenshots: [
         'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3664840/extras/compress_space_1.gif?t=1748719351',
