@@ -28,22 +28,29 @@ const Contact: React.FC = () => {
   return (
     <section id="contact" className="py-20 bg-background">
       <div className="container mx-auto px-4">
-        <div className="max-w-2xl mx-auto text-center mb-16">
+        <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Get In Touch
           </h2>
  
           <p className="text-xl text-gray-300">
-            Have a question, partnership opportunity, or just want to say hello? We'd love to hear from you.
+            Have a question, partnership opportunity, or just want to say hello? 
+          </p>
+          <p className="text-xl text-gray-300">
+            We'd love to hear from you.
           </p>
           <br/>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <button
             onClick={handleSubmit}
-            className="w-full bg-primary hover:bg-primary/90 text-white py-3 px-6 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2"
+            className="bg-primary hover:bg-primary/90 text-white  px-8 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2"
           >
             <Send size={20} />
             Send Message
           </button>
+          </div>
+
         </div>
       </div>
     </section>
