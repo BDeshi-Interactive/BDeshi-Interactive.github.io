@@ -64,7 +64,6 @@ const Team: React.FC = () => {
       ],
       social: {
         artstation: "https://www.artstation.com/theoozyartist",
-        instagram: "https://www.instagram.com/theoozyartist",
       }
     },
   ];
