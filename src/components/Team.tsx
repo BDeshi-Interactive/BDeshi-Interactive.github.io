@@ -66,6 +66,18 @@ const Team: React.FC = () => {
         artstation: "https://www.artstation.com/theoozyartist",
       }
     },
+    {
+      name: "Adriti Saha",
+      image: './OtherAssets/adriti saha.jpg',
+      description: "A concept Artist and storyboard designer.",
+      roles: ["Artist"],    
+      games: [
+        COMPRESS_SPACE_GAME
+      ],
+      social: {
+        artstation: "https://thisisjerry.artstation.com",
+      }
+    },
   ];
 
   const TeamMemberCard = ({ member, isCore = false }: { member: TeamMember; isCore?: boolean }) => (
